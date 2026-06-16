@@ -15,10 +15,6 @@ create_user_request = CreateUserRequestDict(
     middleName="string"
     )
 
-
-
-
-
 # Инициализируем клиент PublicUsersClient
 public_users_client = get_public_users_client()
 
