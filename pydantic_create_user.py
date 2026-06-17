@@ -2,6 +2,9 @@ from pydantic import BaseModel, Field, EmailStr
 
 
 class UserSchema(BaseModel):
+    """
+    Описание структуры пользователя
+    """
     id: str
     email: EmailStr
     last_name: str = Field(alias='lastName')
@@ -11,6 +14,9 @@ class UserSchema(BaseModel):
 
 
 class CreateUserRequestSchema(BaseModel):
+    """
+    Описание структуры запроса на создание пользователя
+    """
     email: EmailStr
     password: str
     last_name: str = Field(alias='lastName')
@@ -19,4 +25,7 @@ class CreateUserRequestSchema(BaseModel):
 
 
 class CreateUserResponseSchema(BaseModel):
+    """
+    Описание структуры ответа на запрос на создание пользователя
+    """
     user: UserSchema
