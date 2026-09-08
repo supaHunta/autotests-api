@@ -31,7 +31,7 @@ courses_client = get_courses_client(authentication_user)
 exercises_client = get_exercises_client(authentication_user)
 
 # Инициализируем словарь с файлом для загрузки
-create_file_request = CreateFileRequestSchema(upload_file='testdata/files/example.png')
+create_file_request = CreateFileRequestSchema(upload_file='testdata/files/image.png')
 
 # Используем метод create_file
 file_data = files_client.create_file(request=create_file_request)
