@@ -46,7 +46,7 @@ class CreateExerciseRequestSchema(BaseModel):
     """
     Описание структуры запроса на создание задания.
     """
-    model_config = ConfigDict(populate_by_name=True)
+    model_config = ConfigDict(populate_by_name=True, loc_by_alias=False)
 
     title: str = Field(default_factory=fake.sentence)
     course_id: str = Field(alias="courseId", default_factory=fake.uuid4)
