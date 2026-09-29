@@ -46,3 +46,4 @@ class Settings(BaseSettings):
 # Теперь вызываем метод initialize
 settings = Settings.initialize()
 
+
