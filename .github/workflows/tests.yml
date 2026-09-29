@@ -83,18 +83,18 @@ jobs:
           name: allure-results
           path: allure-results
 
-      # 3. Получаем историю отчётов Allure из ветки gh-pages (если она есть)
-      - name: Get Allure history
-        uses: actions/checkout@v4
-        if: always()
-        continue-on-error: true
-        with:
-          ref: gh-pages
-          path: gh-pages
+#      # 3. Получаем историю отчётов Allure из ветки gh-pages (если она есть)
+#      - name: Get Allure history
+#        uses: actions/checkout@v4
+#        if: always()
+#        continue-on-error: true
+#        with:
+#          ref: gh-pages
+#          path: gh-pages
 
       # 4. Генерируем отчёт Allure с историей
       - name: Generates Allure Report with history
-        uses: simple-elf/allure-report-action@v1.13
+        uses: simple-elf/allure-report-action@master
         if: always()
         with:
           allure_results: allure-results
