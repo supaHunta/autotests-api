@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://213.171.26.61:8000/api/v1/courses' \
+  -H 'host: 213.171.26.61:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA3VDE1OjUwOjQ2LjcwMTY5NiIsInVzZXJfaWQiOiIyNmQwMTFhZC1hMGEzLTQzZDQtOTU5NS03OWVhZDczMTYwZDAifQ.8kmxOfiCoijd3jbE86Q6Blx3zMYrogAQ3odU1byo6bs' \
+  -H 'content-length: 375' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Bar when detail room.","maxScore":75,"minScore":27,"description":"Space parent often feeling data outside. Argue third case step number time. Miss trade mission institution law. Evidence worker big many bad generation region.","estimatedTime":"1 weeks","previewFileId":"7b1d681c-856f-4864-87e0-c797eadd3b94","createdByUserId":"26d011ad-a0a3-43d4-9595-79ead73160d0"}'

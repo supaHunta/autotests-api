@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://213.171.26.61:8000/api/v1/courses' \
+  -H 'host: 213.171.26.61:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA3VDE1OjUwOjQ5Ljg0ODc0NCIsInVzZXJfaWQiOiIyYzljZjdhOC00M2U2LTQwM2QtOWEyNS0zNzUyOTBjY2QwZWIifQ.KSVXrcftqPTB23eXBGpaTHdtyMa2QER27c4cklg_xvo' \
+  -H 'content-length: 403' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Model drive option responsibility budget.","maxScore":62,"minScore":7,"description":"Watch life similar degree view big matter candidate. General whom check property star. Information call get animal those think feel around. Heavy dinner east term past.","estimatedTime":"3 weeks","previewFileId":"6928dad8-ce47-4359-a835-1cf946f21c25","createdByUserId":"2c9cf7a8-43e6-403d-9a25-375290ccd0eb"}'

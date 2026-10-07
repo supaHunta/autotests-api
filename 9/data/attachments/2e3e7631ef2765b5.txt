@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://213.171.26.61:8000/api/v1/courses/a476603c-5ae3-48d8-a6de-f4435e329f6f' \
+  -H 'host: 213.171.26.61:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA3VDE1OjUwOjQ4LjM2MTc1OSIsInVzZXJfaWQiOiJhZGQ1ODU2ZC1jMTBhLTQ0OGMtYjU4YS0xNmM0YTdjYmI2MDEifQ.e5rNUFBeyUWp7WKyWR5bFT66LPgc6rCQu2nezSQBKwE' \
+  -H 'content-length: 266' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Wide measure decade girl once next team.","maxScore":88,"minScore":5,"description":"Stock look Mr she record result. Social writer start most production sit affect. Choice wonder parent democratic. Onto reveal front effect work.","estimatedTime":"2 weeks"}'

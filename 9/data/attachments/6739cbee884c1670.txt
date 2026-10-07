@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://213.171.26.61:8000/api/v1/courses' \
+  -H 'host: 213.171.26.61:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA3VDE1OjUwOjQ4LjM2MTc1OSIsInVzZXJfaWQiOiJhZGQ1ODU2ZC1jMTBhLTQ0OGMtYjU4YS0xNmM0YTdjYmI2MDEifQ.e5rNUFBeyUWp7WKyWR5bFT66LPgc6rCQu2nezSQBKwE' \
+  -H 'content-length: 383' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Meeting field own far radio.","maxScore":61,"minScore":23,"description":"Question miss shoulder word every cost. Even fire traditional huge back.\nThrough say morning there recent wish mean. Last magazine real action. He should home.","estimatedTime":"2 weeks","previewFileId":"d8e0ef98-2839-4578-a9fe-78e349769e61","createdByUserId":"add5856d-c10a-448c-b58a-16c4a7cbb601"}'

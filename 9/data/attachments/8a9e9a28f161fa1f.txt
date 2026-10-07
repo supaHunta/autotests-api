@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://213.171.26.61:8000/api/v1/exercises' \
+  -H 'host: 213.171.26.61:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA3VDE1OjUwOjU4LjMyMDgyNSIsInVzZXJfaWQiOiIyMDBlMzI2Yy1lMGM2LTQyZmItOGEwYy0yZTZkZGExOTA5NzUifQ.gpKbz0kt0sFm7zcGchXeDKt1y-Lg9hw7Ou-vLL-3lFs' \
+  -H 'content-length: 319' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Middle win after total or enter.","courseId":"531f007b-a47e-417b-aa20-4c6f17697b27","maxScore":97,"minScore":13,"orderIndex":6,"description":"Stop me popular eight. Look smile near treat end writer lot. Theory pay attorney teach democratic there second foreign. Than though reveal.","estimatedTime":"5 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://213.171.26.61:8000/api/v1/exercises' \
+  -H 'host: 213.171.26.61:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA3VDE1OjUwOjUyLjcxOTMxOCIsInVzZXJfaWQiOiJhZGRlODU1ZC05YjY1LTRmN2QtYTc1ZS1lYTk0MWYyZTA5YWUifQ.3m7keqcZQBWOfDv8wjj4ixps6eG0k9tB8Na_4BeEE6M' \
+  -H 'content-length: 307' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Material carry us drop admit military.","courseId":"f1bd6f42-ff5f-4e64-8047-ba3501b98f4a","maxScore":79,"minScore":14,"orderIndex":48,"description":"With car program pretty effect court. Everything push job serious head new everything. Lead generation top nor anything.","estimatedTime":"6 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://213.171.26.61:8000/api/v1/courses' \
+  -H 'host: 213.171.26.61:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA3VDE1OjUwOjU2LjE4Njk4MyIsInVzZXJfaWQiOiIxNDRhYTgxNy0zMmFmLTQzMjYtYTYzNS02NGNhZjZlOGI2ZDAifQ.E5kC2SQmD3o0tt76ESErMaXTW7r6zfh2k3xRMLAdEAU' \
+  -H 'content-length: 408' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Street stop oil safe check foreign available.","maxScore":54,"minScore":3,"description":"Include seat indicate long. Many fire book south ready.\nIncluding admit one option. Writer will significant moment. Physical number style area order deal single school.","estimatedTime":"6 weeks","previewFileId":"d88dfe0c-5b04-41cc-8b0d-b81f366a2246","createdByUserId":"144aa817-32af-4326-a635-64caf6e8b6d0"}'

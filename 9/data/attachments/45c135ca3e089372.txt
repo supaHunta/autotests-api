@@ -1,0 +1,24 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://213.171.26.61:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://213.171.26.61:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://213.171.26.61:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://213.171.26.61:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://213.171.26.61:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://213.171.26.61:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://213.171.26.61:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://213.171.26.61:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://213.171.26.61:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://213.171.26.61:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:28 Make GET request to http://213.171.26.61:8000/api/v1/exercises/01aeec4e-ef24-4891-b133-9816406bcf28
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://213.171.26.61:8000/api/v1/exercises/01aeec4e-ef24-4891-b133-9816406bcf28
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:63 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:40 Check exercise
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Open design build provide us student my.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "id" equals to 01aeec4e-ef24-4891-b133-9816406bcf28
+INFO     BASE_ASSERTIONS:base.py:36 Check that "course_id" equals to 6f3df6c7-dce7-4777-b290-2228365f1c56
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 82
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 5
+INFO     BASE_ASSERTIONS:base.py:36 Check that "order_index" equals to 79
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Edge know national argue exist. Physical suddenly go word attack price usually pull. Outside right that American to. Company travel once.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 2 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

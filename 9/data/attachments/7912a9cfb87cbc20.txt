@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://213.171.26.61:8000/api/v1/courses' \
+  -H 'host: 213.171.26.61:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA3VDE1OjUwOjU0Ljc0NjUxMiIsInVzZXJfaWQiOiI5YzVmYWMzOS1lMmJkLTRiOGMtYjkxMi0wOTIzNjJiZTEyOGQifQ.BYs2x7Od1e5oDmYi4Dr3LynypaMRcgJyA_iYobjsncA' \
+  -H 'content-length: 403' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Improve might war wife senior out assume growth.","maxScore":96,"minScore":11,"description":"Federal interview cup us least keep. Weight remember subject sell democratic public.\nScience remain consumer newspaper some scientist. Possible think maintain.","estimatedTime":"7 weeks","previewFileId":"7e07565d-0c3e-44d9-8d87-22a6867f90ac","createdByUserId":"9c5fac39-e2bd-4b8c-b912-092362be128d"}'

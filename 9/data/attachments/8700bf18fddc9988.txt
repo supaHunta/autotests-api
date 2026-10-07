@@ -1,0 +1,8 @@
+curl -X 'GET' \
+  'http://213.171.26.61:8000/api/v1/files/9e7f9f9b-6616-4f73-b0f8-c915e2ec3b32' \
+  -H 'host: 213.171.26.61:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA3VDE1OjUxOjAxLjkzNTc3OCIsInVzZXJfaWQiOiJhMzJlY2ZkMy1kMDEyLTQ2ZTgtOTZlYS1iMzVjYjcxN2Y3MjQifQ.fAmZVqUod_5RPJduS7J2UzLfcyD_57XKqmYY4jgrB0Y'

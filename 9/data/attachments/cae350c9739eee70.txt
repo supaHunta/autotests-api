@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://213.171.26.61:8000/api/v1/courses' \
+  -H 'host: 213.171.26.61:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA3VDE1OjUwOjUxLjY3NDE4NSIsInVzZXJfaWQiOiIwYWM1NDU5NS02ZjBjLTRlMDUtODFiYy1mNjUxNzJkYzQzODEifQ.x2NCzxbumWeFZl-iCGGTPIBnnuuN-KZ7phgXG75zERw' \
+  -H 'content-length: 335' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Part Mrs out learn bank middle.","maxScore":94,"minScore":1,"description":"Prevent should ask development many about west. Treatment this him book college. Price raise section painting.","estimatedTime":"8 weeks","previewFileId":"8636d25c-6d13-4112-b804-4e8142d92192","createdByUserId":"0ac54595-6f0c-4e05-81bc-f65172dc4381"}'

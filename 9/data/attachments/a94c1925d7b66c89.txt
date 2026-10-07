@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://213.171.26.61:8000/api/v1/courses' \
+  -H 'host: 213.171.26.61:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA3VDE1OjUwOjUyLjcxOTMxOCIsInVzZXJfaWQiOiJhZGRlODU1ZC05YjY1LTRmN2QtYTc1ZS1lYTk0MWYyZTA5YWUifQ.3m7keqcZQBWOfDv8wjj4ixps6eG0k9tB8Na_4BeEE6M' \
+  -H 'content-length: 371' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Bar star seven training follow.","maxScore":100,"minScore":4,"description":"Alone single sense never manager. Sound usually industry hundred.\nTo choice your. Majority see offer task two when. Middle piece series kitchen.","estimatedTime":"1 weeks","previewFileId":"b33f4a0f-46f7-4964-969c-3ea35bf757ad","createdByUserId":"adde855d-9b65-4f7d-a75e-ea941f2e09ae"}'
