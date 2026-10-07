@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://213.171.26.61:8000/api/v1/courses' \
+  -H 'host: 213.171.26.61:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA3VDE1OjU2OjE3LjgwMDAxMiIsInVzZXJfaWQiOiJkZTM2OGZkNy1hNmVlLTRmYWUtYjNhNS1hNzAzMTBhYzJmYmEifQ.rSk30uITkw1rlx3ntgrsljCMyiBytqwLV9I9ozOdyWQ' \
+  -H 'content-length: 410' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Pm dog paper stop law over.","maxScore":64,"minScore":6,"description":"Baby score believe deal early dinner central. Around ready under week herself size. Pattern anyone character dream trade read pay.\nFinish discover chance note message. Few which line risk.","estimatedTime":"9 weeks","previewFileId":"64dacb86-3834-4a9b-8c0e-14d9dd927c1a","createdByUserId":"de368fd7-a6ee-4fae-b3a5-a70310ac2fba"}'

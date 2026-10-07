@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://213.171.26.61:8000/api/v1/courses' \
+  -H 'host: 213.171.26.61:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA3VDE1OjU2OjE0LjY2MDk4MyIsInVzZXJfaWQiOiI0MjBkMGY3YS01ZDFhLTRiMjktODJkZS0xMzE2MDViYmUzMzMifQ.XxOQHxgIZJLiakc3bgDiC4h14NdrU2eRkOmKkqyLUsY' \
+  -H 'content-length: 362' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Write relationship candidate start day firm life color.","maxScore":79,"minScore":19,"description":"War official anything fire success standard. Huge easy development expert nice establish allow. Mouth deal pull.","estimatedTime":"3 weeks","previewFileId":"fcb18997-17d5-43c3-8e25-5dc470770e28","createdByUserId":"420d0f7a-5d1a-4b29-82de-131605bbe333"}'

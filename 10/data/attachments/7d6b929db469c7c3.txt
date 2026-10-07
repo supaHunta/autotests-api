@@ -1,0 +1,8 @@
+curl -X 'GET' \
+  'http://213.171.26.61:8000/api/v1/files/incorrect-file-id' \
+  -H 'host: 213.171.26.61:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA3VDE1OjU2OjMwLjYzODM2MCIsInVzZXJfaWQiOiI5NmI5MjNiYy00ZGFkLTQxYmYtYTY1My0yZjhlYmRiMjUyYTIifQ.xd6Fkab2X6ojiQKpoO5XNehRixoXnc4GxZTmWvvE68o'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://213.171.26.61:8000/api/v1/courses' \
+  -H 'host: 213.171.26.61:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA3VDE1OjU2OjEyLjgxMDQxMCIsInVzZXJfaWQiOiI5ZjFjYWYyNC1lYjc0LTQ3NzYtYjU2Ny04ZGZiM2NmYTc1MjMifQ.ZmKaAO8Tg5ABHBvPiDbI0PFWd82Gnftacvq_ZE-LXoo' \
+  -H 'content-length: 388' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Group avoid than news yet school.","maxScore":72,"minScore":20,"description":"Seek popular energy boy network adult author. Recently second doctor itself. Learn not whole.\nScience difference entire may. Assume story arrive rock decision.","estimatedTime":"1 weeks","previewFileId":"33c8ad2e-3f55-4585-9533-099ca449c956","createdByUserId":"9f1caf24-eb74-4776-b567-8dfb3cfa7523"}'

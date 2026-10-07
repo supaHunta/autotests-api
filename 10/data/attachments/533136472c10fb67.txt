@@ -1,0 +1,26 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://213.171.26.61:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://213.171.26.61:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://213.171.26.61:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://213.171.26.61:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://213.171.26.61:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://213.171.26.61:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://213.171.26.61:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://213.171.26.61:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://213.171.26.61:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://213.171.26.61:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:28 Make GET request to http://213.171.26.61:8000/api/v1/exercises/7ff8243d-042c-4f0b-8f8d-b277b7da9937
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://213.171.26.61:8000/api/v1/exercises/7ff8243d-042c-4f0b-8f8d-b277b7da9937
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:63 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:40 Check exercise
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Station four phone today easy help customer.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "id" equals to 7ff8243d-042c-4f0b-8f8d-b277b7da9937
+INFO     BASE_ASSERTIONS:base.py:36 Check that "course_id" equals to 2c6f64a9-8f9a-49a1-afd2-6838393e5304
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 70
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 9
+INFO     BASE_ASSERTIONS:base.py:36 Check that "order_index" equals to 79
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Type piece top control.
+Author why class good local away. A personal paper side part. Between discuss visit a.
+Would gas house today prepare. Base face piece allow lose change.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 5 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

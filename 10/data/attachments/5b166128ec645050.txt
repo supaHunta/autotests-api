@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://213.171.26.61:8000/api/v1/courses' \
+  -H 'host: 213.171.26.61:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA3VDE1OjU2OjExLjM0NjM2NSIsInVzZXJfaWQiOiJlYzQ2ZmJiOC04NDRmLTQ1ZTUtODYzNy00OTYyZDg3Mzc0MDAifQ.TDwHSGhKmIrIiA0InlukpZAOxjNpzcGikgN6UVxZkvQ' \
+  -H 'content-length: 353' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Or smile suggest off.","maxScore":81,"minScore":30,"description":"Buy ability such necessary table society. Name under keep. Issue no among view. Personal brother other material use majority ever indeed.","estimatedTime":"2 weeks","previewFileId":"b3e20e18-87db-4401-8e45-018bf557ad3a","createdByUserId":"ec46fbb8-844f-45e5-8637-4962d8737400"}'

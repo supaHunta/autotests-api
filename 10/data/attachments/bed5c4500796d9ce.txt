@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://213.171.26.61:8000/api/v1/exercises/4255be4c-2d6e-490e-8ff9-01f3b84138e9' \
+  -H 'host: 213.171.26.61:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA3VDE1OjU2OjE1Ljc0NTk0MiIsInVzZXJfaWQiOiI2MGFlNDhiZS1hYzYxLTRmMDctODlkZC04NjE3MDI3MmMzODEifQ.4R1vQaIocJsgtcKx1BS4m1w9iZ5DoeW8l_eczboDkRM' \
+  -H 'content-length: 276' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Discuss really long.","maxScore":74,"minScore":6,"orderIndex":93,"description":"Culture everything rather develop force you avoid population.\nCentral former perhaps evidence success experience. Company material career able although tell.","estimatedTime":"4 weeks"}'

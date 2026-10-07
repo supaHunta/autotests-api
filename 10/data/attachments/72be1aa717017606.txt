@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://213.171.26.61:8000/api/v1/courses/1b1b85ef-a9e1-4d07-abe1-c8e57210b1ff' \
+  -H 'host: 213.171.26.61:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA3VDE1OjU2OjExLjM0NjM2NSIsInVzZXJfaWQiOiJlYzQ2ZmJiOC04NDRmLTQ1ZTUtODYzNy00OTYyZDg3Mzc0MDAifQ.TDwHSGhKmIrIiA0InlukpZAOxjNpzcGikgN6UVxZkvQ' \
+  -H 'content-length: 259' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Blue return price safe blood dark.","maxScore":68,"minScore":4,"description":"Who provide gun hour until.\nClear listen interesting every speech song actually high. Board among hand life. According be evening source what.","estimatedTime":"4 weeks"}'

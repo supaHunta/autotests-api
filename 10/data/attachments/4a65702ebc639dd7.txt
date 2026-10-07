@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://213.171.26.61:8000/api/v1/exercises' \
+  -H 'host: 213.171.26.61:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA3VDE1OjU2OjE0LjY2MDk4MyIsInVzZXJfaWQiOiI0MjBkMGY3YS01ZDFhLTRiMjktODJkZS0xMzE2MDViYmUzMzMifQ.XxOQHxgIZJLiakc3bgDiC4h14NdrU2eRkOmKkqyLUsY' \
+  -H 'content-length: 339' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Nor rock ball for never.","courseId":"777cdbd8-497c-479f-bde5-1ab401dc309d","maxScore":59,"minScore":26,"orderIndex":23,"description":"Seven lay with party knowledge surface game.\nReceive case ten blue view from. Particularly station her become suffer than. Prove positive movie score need hard tend.","estimatedTime":"2 weeks"}'

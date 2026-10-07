@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://213.171.26.61:8000/api/v1/courses' \
+  -H 'host: 213.171.26.61:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA3VDE1OjU2OjE5LjI2NjA0MSIsInVzZXJfaWQiOiIzZDZiOWExYS05ZjYyLTRiZDgtYmMwNS1kZDA2YjhmYjY5MWMifQ.ugdg_R8PawxWovt0GvtcQu9Pdc6E1mqveWDtY5b1Zps' \
+  -H 'content-length: 423' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Strategy others song western.","maxScore":70,"minScore":6,"description":"Some point those him. Southern commercial see style.\nSpecial so throughout sing west everything state. Son fact personal room. Enjoy simply key visit.\nRise prove especially thank everything develop.","estimatedTime":"1 weeks","previewFileId":"cbfe7fba-6af8-4175-af8b-9d1cb125b29d","createdByUserId":"3d6b9a1a-9f62-4bd8-bc05-dd06b8fb691c"}'
