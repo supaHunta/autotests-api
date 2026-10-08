@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://213.171.26.61:8000/api/v1/courses' \
+  -H 'host: 213.171.26.61:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA4VDEwOjM5OjUwLjQ0NzgzMCIsInVzZXJfaWQiOiIxOGIwOTQxZi04ODVkLTQ3NTctOTMyNi0yNDJmMDY1OGExYzUifQ.dEiRit-_T_pMhvIoooBhUZna-z1RyVx2OfTsDkZ6wlE' \
+  -H 'content-length: 419' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Machine anything executive.","maxScore":100,"minScore":18,"description":"Rich job answer street campaign result ago. Position garden heart rise professional successful either. Back third social.\nReturn animal wife production. Left since car concern bank foot position.","estimatedTime":"1 weeks","previewFileId":"ebafcd79-6700-4d52-8479-15b033a6ba1e","createdByUserId":"18b0941f-885d-4757-9326-242f0658a1c5"}'

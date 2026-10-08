@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://213.171.26.61:8000/api/v1/courses' \
+  -H 'host: 213.171.26.61:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA4VDEwOjM5OjQ4LjgxOTE4NyIsInVzZXJfaWQiOiIxNWNkMDExZC1hYTQ5LTQxNDgtYTE4MS1lMGEzZmJkNDI0M2IifQ.eKoyQAYX34rF8cMouW6z1edKhPy6dY0i9fC67c7wcSc' \
+  -H 'content-length: 402' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Carry many out through eight.","maxScore":57,"minScore":17,"description":"Inside ok land third we daughter nation. Raise direction easy seek. Pay save manager manager me defense show.\nOrder learn culture ready. Own read region. Able land you baby set.","estimatedTime":"4 weeks","previewFileId":"3b2f392f-ac80-4a59-af3c-b72869f170a1","createdByUserId":"15cd011d-aa49-4148-a181-e0a3fbd4243b"}'

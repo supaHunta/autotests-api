@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://213.171.26.61:8000/api/v1/courses' \
+  -H 'host: 213.171.26.61:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA4VDEwOjM5OjQ0LjY5MzAyOSIsInVzZXJfaWQiOiIxMGU1NWU5Mi1jODU2LTQ2NGUtYmQ2My1mMDQwZWQzMzJlMzYifQ.jhTmp-iy2bSm2G8yBGXIeUwTIYnA2-MF-0Vfu-VnkRw' \
+  -H 'content-length: 311' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Special catch travel wife effect lose.","maxScore":81,"minScore":19,"description":"Rate others affect grow interest compare.\nDetermine think stock dinner view.","estimatedTime":"10 weeks","previewFileId":"1512364b-4ff4-4e8b-8698-4ac146db9aea","createdByUserId":"10e55e92-c856-464e-bd63-f040ed332e36"}'

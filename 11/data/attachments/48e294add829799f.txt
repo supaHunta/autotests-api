@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://213.171.26.61:8000/api/v1/courses' \
+  -H 'host: 213.171.26.61:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA4VDEwOjM5OjM3LjgxNjQ0NSIsInVzZXJfaWQiOiI0ZDZlNzNjYi03ZTMwLTQ2MTctODEyMy1mOTZjZGU0NjU3NmIifQ.AAYFi-RfJ6l5GKn_yW3gqfAQK_eyMtfHlHE41u_wz7c' \
+  -H 'content-length: 301' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Forget whatever garden enjoy.","maxScore":71,"minScore":7,"description":"Mrs court Democrat key worry. Decade art main. Responsibility or of sing most.","estimatedTime":"4 weeks","previewFileId":"dfc0aafd-c803-4508-b8ad-259e33b7f0e2","createdByUserId":"4d6e73cb-7e30-4617-8123-f96cde46576b"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://213.171.26.61:8000/api/v1/exercises' \
+  -H 'host: 213.171.26.61:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA4VDEwOjM5OjUwLjQ0NzgzMCIsInVzZXJfaWQiOiIxOGIwOTQxZi04ODVkLTQ3NTctOTMyNi0yNDJmMDY1OGExYzUifQ.dEiRit-_T_pMhvIoooBhUZna-z1RyVx2OfTsDkZ6wlE' \
+  -H 'content-length: 350' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ago glass institution should.","courseId":"5b8c88cd-afff-49b0-b68f-3d61717e8051","maxScore":72,"minScore":15,"orderIndex":97,"description":"Ability much her. Stay bag discover picture. Control special low institution ok behind learn.\nOccur opportunity kid laugh. Argue activity town involve hair another seven.","estimatedTime":"10 weeks"}'

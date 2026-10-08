@@ -1,0 +1,8 @@
+curl -X 'DELETE' \
+  'http://213.171.26.61:8000/api/v1/files/b5103e54-048c-48e7-bc2e-76d1ca3e4258' \
+  -H 'host: 213.171.26.61:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA4VDEwOjM5OjU2LjA0NTQwMSIsInVzZXJfaWQiOiI2NmNjNGE1Mi1iMjc1LTRkZjUtODgzOS0xM2VhNzE4NjVjMjUifQ.tmh9Zq-1lhAPNmQBdU-wLxGEz-cOHkpQcoQDZ4iV7hg'

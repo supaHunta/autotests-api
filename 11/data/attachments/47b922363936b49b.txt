@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://213.171.26.61:8000/api/v1/courses/839feeb4-3ba4-44b9-b7d6-8388089c4eb7' \
+  -H 'host: 213.171.26.61:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA4VDEwOjM5OjM5LjExMzY2MSIsInVzZXJfaWQiOiI1MzMzYmIyOC0yNDQ5LTQ1Y2QtYTAyNi1jNTY5ZTgyNTFhYTQifQ.J5Q-b8iloanM-ESINjtkbyslhxPK7TYOu051i_NmYBE' \
+  -H 'content-length: 233' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ever our western leader market sign.","maxScore":87,"minScore":6,"description":"Prepare natural question share. Scene bill other study professor. Teach find management friend wind this hard will.","estimatedTime":"9 weeks"}'

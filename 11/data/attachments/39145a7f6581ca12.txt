@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://213.171.26.61:8000/api/v1/courses' \
+  -H 'host: 213.171.26.61:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA4VDEwOjM5OjQ2LjM4ODU3MiIsInVzZXJfaWQiOiJlN2QzM2MxMS02YTkwLTQzM2QtYTJmNS00ZTVlMDhmNWU4NzMifQ.0YiTRjGlRgV9MF0W41tn4oAfLqN8nrA8ncxQTckWk0k' \
+  -H 'content-length: 346' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Along current build section.","maxScore":89,"minScore":19,"description":"Again good magazine audience together eat.\nBeat professional technology. Sing most write anything responsibility analysis.","estimatedTime":"9 weeks","previewFileId":"da3a9584-c8ef-4dc0-8c5c-d1965de584de","createdByUserId":"e7d33c11-6a90-433d-a2f5-4e5e08f5e873"}'

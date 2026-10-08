@@ -1,0 +1,26 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://213.171.26.61:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://213.171.26.61:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://213.171.26.61:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://213.171.26.61:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://213.171.26.61:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://213.171.26.61:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://213.171.26.61:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://213.171.26.61:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://213.171.26.61:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://213.171.26.61:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:28 Make GET request to http://213.171.26.61:8000/api/v1/exercises?courseId=5b8c88cd-afff-49b0-b68f-3d61717e8051
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://213.171.26.61:8000/api/v1/exercises?courseId=5b8c88cd-afff-49b0-b68f-3d61717e8051
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:100 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:70 Check that length of "exercises" equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:40 Check exercise
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Ago glass institution should.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "id" equals to efcb4c83-8163-404e-853c-a70b9f02d1c8
+INFO     BASE_ASSERTIONS:base.py:36 Check that "course_id" equals to 5b8c88cd-afff-49b0-b68f-3d61717e8051
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 72
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 15
+INFO     BASE_ASSERTIONS:base.py:36 Check that "order_index" equals to 97
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Ability much her. Stay bag discover picture. Control special low institution ok behind learn.
+Occur opportunity kid laugh. Argue activity town involve hair another seven.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 10 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

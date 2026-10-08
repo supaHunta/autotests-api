@@ -1,0 +1,10 @@
+curl -X 'POST' \
+  'http://213.171.26.61:8000/api/v1/users' \
+  -H 'host: 213.171.26.61:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'content-length: 116' \
+  -H 'content-type: application/json' \
+  -d '{"email":"kelly32@mail.ru","password":"3jSqLsq5+3","lastName":"Anderson","firstName":"Jason","middleName":"Allison"}'

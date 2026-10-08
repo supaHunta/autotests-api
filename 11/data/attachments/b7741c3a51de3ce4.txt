@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://213.171.26.61:8000/api/v1/courses' \
+  -H 'host: 213.171.26.61:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA4VDEwOjM5OjQyLjY5Mzk4OCIsInVzZXJfaWQiOiI1ZmRhMjc2Ni03Y2I1LTRkZDAtYmFmZS0zZTMyMzFkOGI2ZGYifQ.-JIJ9oEKxxqNZTudq18GuV84ABmgwJllqULQoWpidOo' \
+  -H 'content-length: 372' \
+  -H 'content-type: application/json' \
+  -d '{"title":"How run begin.","maxScore":76,"minScore":19,"description":"During media something event purpose ten. Like require hot road I rock oil life. No can serious affect likely bit financial.\nData cell floor. Form dream give hit.","estimatedTime":"8 weeks","previewFileId":"5cd9c268-825b-4ad9-9588-5953cfc4db31","createdByUserId":"5fda2766-7cb5-4dd0-bafe-3e3231d8b6df"}'

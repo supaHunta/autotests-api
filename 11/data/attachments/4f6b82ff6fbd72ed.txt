@@ -1,0 +1,8 @@
+curl -X 'GET' \
+  'http://213.171.26.61:8000/api/v1/exercises/bcd4e9cf-b7de-4666-98c5-4e742a28889a' \
+  -H 'host: 213.171.26.61:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA4VDEwOjM5OjQ2LjM4ODU3MiIsInVzZXJfaWQiOiJlN2QzM2MxMS02YTkwLTQzM2QtYTJmNS00ZTVlMDhmNWU4NzMifQ.0YiTRjGlRgV9MF0W41tn4oAfLqN8nrA8ncxQTckWk0k'

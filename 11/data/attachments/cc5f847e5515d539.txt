@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://213.171.26.61:8000/api/v1/courses' \
+  -H 'host: 213.171.26.61:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA4VDEwOjM5OjM5LjExMzY2MSIsInVzZXJfaWQiOiI1MzMzYmIyOC0yNDQ5LTQ1Y2QtYTAyNi1jNTY5ZTgyNTFhYTQifQ.J5Q-b8iloanM-ESINjtkbyslhxPK7TYOu051i_NmYBE' \
+  -H 'content-length: 386' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Number computer degree a when shoulder.","maxScore":65,"minScore":3,"description":"War necessary save plan significant mission. Management admit serious while computer keep speak pressure. Could improve single product similar soon unit.","estimatedTime":"3 weeks","previewFileId":"0ea0a111-9641-43b5-b850-d9bc42e91a64","createdByUserId":"5333bb28-2449-45cd-a026-c569e8251aa4"}'

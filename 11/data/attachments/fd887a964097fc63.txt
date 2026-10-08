@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://213.171.26.61:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://213.171.26.61:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://213.171.26.61:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://213.171.26.61:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://213.171.26.61:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://213.171.26.61:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://213.171.26.61:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://213.171.26.61:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:84 Check create course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Front seem remember bill compare head it.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 75
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 17
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 10 weeks
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Behavior series smile bank amount make yeah. Avoid north writer national many. Build character discussion alone.
+Work face where and carry front same. Figure style key skill arm agreement.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "preview_file_id" equals to 85b2e474-917d-4186-b4f5-0a0e3dca1f07
+INFO     BASE_ASSERTIONS:base.py:36 Check that "created_by_user_id" equals to 9103a66b-cd5e-4dba-a20e-52b4d96bcc8e
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

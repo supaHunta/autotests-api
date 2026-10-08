@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://213.171.26.61:8000/api/v1/courses' \
+  -H 'host: 213.171.26.61:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA4VDEwOjM5OjQxLjQ4MzMwNiIsInVzZXJfaWQiOiI5MTAzYTY2Yi1jZDVlLTRkYmEtYTIwZS01MmI0ZDk2YmNjOGUifQ.sl61TJb79KD4AdD7GLACoYhQWpipsVzdYNre8i3S0Fk' \
+  -H 'content-length: 426' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Front seem remember bill compare head it.","maxScore":75,"minScore":17,"description":"Behavior series smile bank amount make yeah. Avoid north writer national many. Build character discussion alone.\nWork face where and carry front same. Figure style key skill arm agreement.","estimatedTime":"10 weeks","previewFileId":"85b2e474-917d-4186-b4f5-0a0e3dca1f07","createdByUserId":"9103a66b-cd5e-4dba-a20e-52b4d96bcc8e"}'

@@ -1,0 +1,10 @@
+curl -X 'POST' \
+  'http://213.171.26.61:8000/api/v1/files' \
+  -H 'host: 213.171.26.61:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA4VDEwOjM5OjUzLjE5NjIxMyIsInVzZXJfaWQiOiI2ODk0YjJmYy0wZDgyLTQyODctODYyOC1iMTA4MzgyODkwOWYifQ.nXe9fBV-1REILhmUaRqlsp7qAW4JhsQVdY0aU79_CwA' \
+  -H 'content-length: 313440' \
+  -H 'content-type: multipart/form-data; boundary=74f216f25c8e9ea1f436e6804ca0e297'
