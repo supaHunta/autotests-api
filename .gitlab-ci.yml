@@ -1,0 +1,142 @@
+# -----------------------------------------------------------------------------
+# GitLab CI pipeline: запуск API-тестов и публикация Allure отчёта
+# -----------------------------------------------------------------------------
+
+stages:
+  - test     # запуск автотестов и сохранение allure-results/
+  - report   # генерация HTML-отчёта Allure
+  - deploy   # публикация отчёта на GitLab Pages
+
+
+# -----------------------------------------------------------------------------
+# Джоба №1 — установка окружения, запуск тестов, сохранение allure-results/
+# -----------------------------------------------------------------------------
+run-tests:
+  stage: test
+
+  image: ubuntu:24.04
+
+  # Даже если тесты упадут, пайплайн продолжит выполнение,
+  # чтобы отчёт был опубликован в любом случае.
+  allow_failure: true
+
+  # Переменные окружения для работы тестового FastAPI-сервера.
+  variables:
+    APP_HOST: "http://localhost:8000"
+    DATABASE_URL: "sqlite+aiosqlite:///./local.db"
+    JWT_ALGORITHM: "HS256"
+    JWT_SECRET_KEY: "qa-automation-engineer-api-course-secret-key"
+    JWT_ACCESS_TOKEN_EXPIRE: 1800
+    JWT_REFRESH_TOKEN_EXPIRE: 5184000
+
+  before_script:
+    # ------------------------------------------
+    # 1. Подготовка системного окружения
+    # ------------------------------------------
+    - apt-get update
+    - apt-get install -y python3.12 python3.12-venv python3-pip git
+
+    # ------------------------------------------
+    # 2. Настройка Python-окружения
+    # ------------------------------------------
+    - python3.12 -m venv venv
+    - source venv/bin/activate
+    - pip install -r requirements.txt
+
+  script:
+    # ------------------------------------------
+    # 1. Клонирование учебного FastAPI-сервера
+    # ------------------------------------------
+    - git clone https://github.com/Nikita-Filonov/qa-automation-engineer-api-course.git
+    - pip install -r qa-automation-engineer-api-course/requirements.txt
+
+    # ------------------------------------------
+    # 2. Запуск локального FastAPI-сервера
+    # ------------------------------------------
+    - uvicorn main:app --host 0.0.0.0 --port 8000 --app-dir ./qa-automation-engineer-api-course &
+    - sleep 3
+
+    # ------------------------------------------
+    # 3. Запуск API-тестов
+    # ------------------------------------------
+    - pytest -m regression --alluredir=allure-results --numprocesses 2
+
+  # Сохраняем только результаты тестов — отчёт генерируется в publish-report.
+  artifacts:
+    paths:
+      - allure-results/
+    expire_in: 7 days
+    when: always
+
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "main"'
+
+
+# -----------------------------------------------------------------------------
+# Джоба №2 — генерация HTML-отчёта Allure из allure-results/
+# -----------------------------------------------------------------------------
+publish-report:
+  stage: report
+
+  image: ubuntu:24.04
+
+  # Забираем артефакт allure-results/ из run-tests.
+  needs:
+    - job: run-tests
+      artifacts: true
+
+  # Выполняемся даже если тесты упали — отчёт должен быть сформирован.
+  when: always
+
+  before_script:
+    # ------------------------------------------
+    # 1. Подготовка системного окружения
+    # ------------------------------------------
+    - apt-get update
+    - apt-get install -y openjdk-11-jre wget tar
+
+    # ------------------------------------------
+    # 2. Установка Allure Commandline
+    # ------------------------------------------
+    - wget https://github.com/allure-framework/allure2/releases/download/2.32.0/allure-2.32.0.tgz
+    - tar -xvf allure-2.32.0.tgz
+
+  script:
+    # ------------------------------------------
+    # Генерация HTML-отчёта Allure
+    # ------------------------------------------
+    - allure-2.32.0/bin/allure generate allure-results -o allure-report --clean
+
+  # Сохраняем готовый отчёт как артефакт.
+  artifacts:
+    paths:
+      - allure-report/
+    expire_in: 7 days
+    when: always
+
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "main"'
+
+
+# -----------------------------------------------------------------------------
+# Джоба №3 — публикация Allure-отчёта на GitLab Pages
+# -----------------------------------------------------------------------------
+pages:
+  stage: deploy
+
+  script:
+    # GitLab Pages публикует только директорию public/.
+    - mkdir -p public
+    - cp -r allure-report/* public/
+
+  artifacts:
+    paths:
+      - public
+
+  # Публикация выполняется после генерации отчёта.
+  needs:
+    - job: publish-report
+      artifacts: true
+
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "main"'
